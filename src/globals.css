@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("bg/bg2.jpg");
+}
+.container{
+    width: 300px;
+    border: 2px solid #265B6F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    backdrop-filter:blur(5px)
+}
+.header{
+    font-family: Calibri;
+    color: #56BFD6;
+    font-size: 20px;
+}
+.input-bar{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.input-bar input{
+    width:190px;
+    height: 35px;
+    outline: none;
+    font-size: 13px;
+    padding-left: 9px;
+    background-color: #2A2F3D;
+    color: white;
+    border:none;
+    border-radius: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.input-bar button{
+    height: 36.8px;
+    border: none;
+    background-color:#265B6F;
+    color: white;
+    width: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.content-container{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+.upper-message{
+    width: 100%;
+    height: 35px;
+    color: grey;
+    font-family: Calibri;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(245, 245, 445);
+}
+.content{
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.content .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 180px;
+}
+.content .emojis{
+    font-size: 22px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    background-color:#062733;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+.categories{
+    width: 20px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories:focus{
+    border-bottom: 2px solid #36a8d1;
+}
+

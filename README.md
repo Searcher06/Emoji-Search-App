@@ -1,1 +1,0 @@
-# Emoji-Search-App
