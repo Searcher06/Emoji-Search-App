@@ -1,11 +1,10 @@
 
-export function Wrapper({emoji}){
+export function Wrapper({emoji,wrapperContent,setWrapperContent}){
+   
     return <>
     <div className="wrapper">
             {
-                emoji.map((current,index)=>{
-                    return <div key={index}  className="emojis">{current.unicode}</div>
-                })
+               wrapperContent
             }
         </div>
     </>
