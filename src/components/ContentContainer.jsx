@@ -10,5 +10,7 @@ export function ContentContainer({emoji,searchText,wrapperContent,setWrapperCont
         <Footer emoji={emoji} setWrapperContent={setWrapperContent} copyToClipboard={copyToClipboard}/>
     </div>
     </>
+    
+
 }
 
